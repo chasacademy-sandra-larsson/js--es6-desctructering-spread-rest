@@ -1,38 +1,36 @@
-// Exercise 1a: Destructuring Objects
+// Övning 1: Destructurera objekt
 const person = {
   name: "Alice",
   age: 30,
   address: "123 Main St",
 };
 
-// Use destructuring to extract properties into separate variables
-const { name, age, address } = person;
-console.log(`Name: ${name}, Age: ${age}, Address: ${address}`);
+// Använd destructuering för att ta ut varje property till separat variabel
+// TODO: 
+console.log(`Name: ${name}, Age: ${age}, Address: ${address}`); // Detta ska skrivas ut
 
-// Exercise 2a: Destructuring Arrays
+// Övning 2: Destructurera arrayer
 const colors = ["red", "green", "blue"];
 
-// Assign each color to separate variables
-const [color1, color2, color3] = colors;
-console.log(color1, color2, color3);
+// Tilldela varhe färg en variabel
+// TODO: 
+console.log(color1, color2, color3); // Detta ska skrivas ut
 
-// Exercise 3a: Spread Operator
+// Övning 3: Spread operator
 const numbers1 = [1, 2, 3];
 const numbers2 = [4, 5, 6];
 
-// Combine arrays using the spread operator
-const combinedNumbers = [...numbers1, ...numbers2];
-console.log(combinedNumbers);
+// Kompinera de båda arrayerna med spreadoperatorn
+// TODO: 
+console.log(combinedNumbers); // Detta ska skrivas ut
 
-// Exercise 4a: Rest Operator
-// Create a function that accepts a variable number of arguments and sums them
-function sum(...numbers) {
-  return numbers.reduce((acc, num) => acc + num, 0);
-}
+// Övning 4: Rest operatorn
+// Skapa en funktion som tar emot ett varierbart antal argument och returnerar summan av dem
+// TODO: 
 
-console.log(sum(1, 2, 3, 4, 5));
+console.log(sum(1, 2, 3, 4, 5)); // Ska ex skriva ut 15
 
-// Exercise 5a: Destructuring Nested Objects
+// Övning 5: Destructurera nästlade objekt
 const user = {
   id: 1,
   info: {
@@ -41,31 +39,21 @@ const user = {
   },
 };
 
-// Extract properties from a nested object
-const { id, info: { name, email } } = user;
-console.log(`User ID: ${id}, Name: ${name}, Email: ${email}`);
+// Extrahera alla properties från objektet user
+// TODO: 
+console.log(`User ID: ${id}, Name: ${name}, Email: ${email}`); // Detta ska skrivas ut
 
-// Exercise 6a: Destructuring Nested Arrays
+// Övning 6: Destructurera nästlade arrayer
 const teams = [
   { name: "Team A", players: ["Player 1", "Player 2"] },
   { name: "Team B", players: ["Player 3", "Player 4"] },
 ];
 
-// Extract properties from a nested array
-const [{ name: teamName, players: [player1, player2] }] = teams;
-console.log(`Team Name: ${teamName}`);
-console.log(`Players: ${player1}, ${player2}`);
+// Extrahera alla properties från den nästlade arrayen.
+console.log(`Team Name: ${teamName}`); // Detta ska skrivas ut
+console.log(`Players: ${player1}, ${player2}`); // Detta ska skrivas ut
 
-// Exercise 7a: Destructuring Function Parameters
-// Create a function that calculates the area of a rectangle using destructuring
-function calculateRectangleArea({ width, height }) {
-  return width * height;
-}
-
-const rectangle = { width: 10, height: 5 };
-console.log(`Area: ${calculateRectangleArea(rectangle)}`);
-
-// Exercise 8a: Rest Operator in Object Destructuring
+// Övning 7 Rest-operatorn i objekt destructurering
 const book = {
   title: "The Great Gatsby",
   author: "F. Scott Fitzgerald",
@@ -73,7 +61,7 @@ const book = {
   pages: 180,
 };
 
-// Use object destructuring with the rest operator to capture remaining properties
+// Destructurera så att title extraheras i en variabel och bookInfo till återstående
 const { title, ...bookInfo } = book;
-console.log(`Title: ${title}`);
-console.log("Book Info:", bookInfo);
+console.log(`Title: ${title}`); // Detta ska skrivas ut
+console.log("Book Info:", bookInfo); // Resten av objektet ska skrivas ut
