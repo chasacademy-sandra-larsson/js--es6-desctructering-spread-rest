@@ -25,7 +25,7 @@ const person = {
   const numbers2 = [4, 5, 6];
   
   // Kompinera de båda arrayerna med spreadoperatorn
-  // TODO: 
+  // TODO
   
   console.log(combinedNumbers); // Detta ska skrivas ut
   
