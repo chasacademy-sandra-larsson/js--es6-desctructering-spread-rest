@@ -3,9 +3,10 @@
 1. Gå till code.js 
 2. Jobba övning för övning
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters
+Dessa koncept ska övas in :-)
+(MDN ES6 Desctructering)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment]
+(MDN ES6 Spread syntax)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax]
+(MDN ES6 Rest parameter)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters]
 
 Lycka till! 😄
-# js--es6-desctructering-spread-rest
+// Sandra
